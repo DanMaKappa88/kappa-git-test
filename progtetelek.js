@@ -54,3 +54,19 @@ return tomb3;
 console.log(calc.sum(5,6));
 
 //8 nyolcadik feladat
+let n=5;
+let m=6;
+  const ketDimenziosTomb  = (n,m) =>{
+    let arr = new Array (n);
+    for(let i=0 ; i<n ;i++){
+        arr[i] = new Array(m);
+    }
+	 for(let i = 0; i < arr.length;i++) {
+        for (let j = 0;j< arr[i].length;j++){
+	arr[i][j]=i*j;
+}}	
+    return arr;
+};
+
+console.log(ketDimenziosTomb(n,m));
+console.log(ketDimenziosTomb(2,3)
