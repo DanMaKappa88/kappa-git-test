@@ -6,7 +6,7 @@ Név:
 1. Mit értünk egy `commit` alatt, mit tartalmaz?
 2. commit az aktuális változtatások csokra/gyűjteményének leírását szolgálja. úgymond egy komment hogy a mi változott
 3. Mi a különbség a `fetch` es `pull` git parancsok között?
-4. a fetch csak megnézi mi a helyzet a remote repoban, a változtatásokat a pull le is huzza és változtatja .
+4. a fetch csak megnézi mi a helyzet a remote repoban nem tölt le változtatásokat csak megmutatja mi változott , a változtatásokat a pull le is huzza és változtatja a lokális dolgainkat.
 
 1. Mi a három állapota file-oknak git szempontjából, milyen parancsokkal mozgatjuk ezek között?
 2. a változott a hozzáadott, a commitolt. git status => git add . => git commit => git push
@@ -19,16 +19,17 @@ Név:
 9. 
 10. Mi az a `HEAD` és mi a jelentősége?
 11. Egy szimbolikus referencia az aktuális pozícionkra/ ahol épp állunk a , csak egy rá mutató link, mindig az aktuális poziciónkra mutat
-12. Mi a célja a branch-elésnek?
-13. A cél , hogy több szálon dolgozhassanak a programozók és amikor valami jól működik csak akkor rakják a fő szálra 
-14. 
-15. Hogyan lehet összehasonlítani file-ok állapotait, mire tudjuk még ezt a kimenetet használni?
-16. git diff file_nev
-17. 
-18. Hogy lehet megnézni egy repo történetét, milyen eszközeink vannak ebben való keresésre?
-19. git log / greppel tudunk benne keresni 
-20. Melyik git parancsot használnád, hogy megtudd milyen állapotban van épp a repo?
-21. git status
+12. A legutolsó "COMMIT"ra való hivatkozás az aktuális brancsen
+13. Mi a célja a branch-elésnek?
+14. A cél , hogy több szálon dolgozhassanak a programozók és amikor valami jól működik csak akkor rakják a fő szálra 
+15. 
+16. Hogyan lehet összehasonlítani file-ok állapotait, mire tudjuk még ezt a kimenetet használni?
+17. git diff file_nev
+18. 
+19. Hogy lehet megnézni egy repo történetét, milyen eszközeink vannak ebben való keresésre?
+20. git log / greppel tudunk benne keresni 
+21. Melyik git parancsot használnád, hogy megtudd milyen állapotban van épp a repo?
+22. git status
 
 Mark Zuckerberg 14 órával ezelőtt
 To follow industry standards, the endpoint responsible for the status of
