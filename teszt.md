@@ -29,3 +29,13 @@ Név:
 19. git log / greppel tudunk benne keresni 
 20. Melyik git parancsot használnád, hogy megtudd milyen állapotban van épp a repo?
 21. git status
+
+Mark Zuckerberg 14 órával ezelőtt
+To follow industry standards, the endpoint responsible for the status of
+the service should live under the /health endpoint and return a bool
+value denoted by the `health` key.
+
+router.get('/', function(req, res) {
+  res.json({ up: true });
+router.get('/health', function(req, res) {
+  res.json({ health: true });
