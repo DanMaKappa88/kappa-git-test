@@ -6,7 +6,7 @@ Név:
 1. Mit értünk egy `commit` alatt, mit tartalmaz?
 2. commit az aktuális változtatások csokra/gyűjteményének leírását szolgálja. úgymond egy komment hogy a mi változott
 3. Mi a különbség a `fetch` es `pull` git parancsok között?
-4. a fetch csak megnézi mi a helyzet a remote repoban, a változtatásokat a pull le is huzza és változtatja .
+4. a fetch csak megnézi mi a helyzet a remote repoban nem tölt le változtatásokat csak megmutatja mi változott , a változtatásokat a pull le is huzza és változtatja a lokális dolgainkat.
 
 1. Mi a három állapota file-oknak git szempontjából, milyen parancsokkal mozgatjuk ezek között?
 2. a változott a hozzáadott, a commitolt. git status => git add . => git commit => git push
