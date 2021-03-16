@@ -1,4 +1,4 @@
-7hetedik feladat
+//7hetedik feladat
 
 const sum = (a,b) =>{
 
