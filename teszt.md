@@ -19,16 +19,17 @@ Név:
 9. 
 10. Mi az a `HEAD` és mi a jelentősége?
 11. Egy szimbolikus referencia az aktuális pozícionkra/ ahol épp állunk a , csak egy rá mutató link, mindig az aktuális poziciónkra mutat
-12. Mi a célja a branch-elésnek?
-13. A cél , hogy több szálon dolgozhassanak a programozók és amikor valami jól működik csak akkor rakják a fő szálra 
-14. 
-15. Hogyan lehet összehasonlítani file-ok állapotait, mire tudjuk még ezt a kimenetet használni?
-16. git diff file_nev
-17. 
-18. Hogy lehet megnézni egy repo történetét, milyen eszközeink vannak ebben való keresésre?
-19. git log / greppel tudunk benne keresni 
-20. Melyik git parancsot használnád, hogy megtudd milyen állapotban van épp a repo?
-21. git status
+12. A legutolsó "COMMIT"ra való hivatkozás az aktuális brancsen
+13. Mi a célja a branch-elésnek?
+14. A cél , hogy több szálon dolgozhassanak a programozók és amikor valami jól működik csak akkor rakják a fő szálra 
+15. 
+16. Hogyan lehet összehasonlítani file-ok állapotait, mire tudjuk még ezt a kimenetet használni?
+17. git diff file_nev
+18. 
+19. Hogy lehet megnézni egy repo történetét, milyen eszközeink vannak ebben való keresésre?
+20. git log / greppel tudunk benne keresni 
+21. Melyik git parancsot használnád, hogy megtudd milyen állapotban van épp a repo?
+22. git status
 
 Mark Zuckerberg 14 órával ezelőtt
 To follow industry standards, the endpoint responsible for the status of
